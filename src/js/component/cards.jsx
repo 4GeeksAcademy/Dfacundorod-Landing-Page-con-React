@@ -12,7 +12,7 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde ipsa tenetur nost
     ]
 const individualCard = articles.map((card, index)=>{
     return (
-            <div key={index} className="card">
+            <div key={index} className="card mx-1">
                 <img src={card.src} className="card-img-top" alt={card.alt}/>
                 <div className="card-body d-flex flex-column mx-auto text-center p-0 pt-2">
                     <h5 className="card-title">{card.title}</h5>
